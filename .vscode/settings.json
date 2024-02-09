@@ -1,0 +1,12 @@
+{
+    "python.pythonPath": "/Users/deepak/study/deepak/python/venvs/vscodeenv/bin/python",
+    "terminal.integrated.env.osx": {"PYTHONPATH": "${workspaceFolder}"},
+    "python.defaultInterpreterPath": "/Users/deepak/study/deepak/python/venvs/vscodeenv/bin/python",
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    }
+}
