@@ -1,6 +1,7 @@
 """
 This function returns second largest element from array
 """
+
 from pydantic import validate_call
 
 

@@ -1,6 +1,7 @@
 """This program find the short path from start point to end point
     https://github.com/techwithtim/3-Mini-Python-Projects-For-Intermediates/blob/main/path-finder.py
 """
+
 import curses
 from curses import wrapper
 import queue
