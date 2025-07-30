@@ -1,15 +1,23 @@
 {
-    "terminal.integrated.env.osx": {"PYTHONPATH": "${workspaceFolder}"},
+    "terminal.integrated.env.osx": {
+        "PYTHONPATH": "${workspaceFolder}"
+    },
     "python.defaultInterpreterPath": "/Users/deepak/study/deepak/python/venvs/vscodeenv/bin/python",
     "code-runner.executorMap": {
         "python": "$pythonPath -u $fullFileName"
     },
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff"
     },
-    "black-formatter.args": [
-        "--preview",
-        "--line-length=79",
-    ],
+    "ruff.lineLength": 88,
+    "ruff.nativeServer": "on",
+    "pylint.args": [
+        "--disable=C0114",
+        "--disable=C0116"
+    ]
 }
