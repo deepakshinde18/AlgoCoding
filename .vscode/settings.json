@@ -14,12 +14,13 @@
         },
         "editor.defaultFormatter": "charliermarsh.ruff"
     },
-    "ruff.lineLength": 79,
+    "ruff.lineLength": 88,
     "ruff.nativeServer": "on",
     "pylint.args": [
         "--disable=C0114",
         "--disable=C0116"
     ],
+    "python.analysis.typeCheckingMode": "standard",
     "python.testing.pytestArgs": [
         "tests"
     ],
